@@ -1,5 +1,5 @@
 # ESP8266-Modbus-Thermostat-Example
-ESP8266 based Thermostat with touchscreen and Modbus support
+ESP8266 based wall thermostat with ILI9341 touchscreen and Modbus support   
 
 ## Usage
 
@@ -13,6 +13,16 @@ SimpleModbus NG https://github.com/angeloc/simplemodbusng
 You can also download the library also directly as ZIP file and uncompress the folder under yourarduinosketchfolder/libraries/   
 
 After installing the Adafruit libraries, restart the Arduino IDE. 
+
+## MODBUS
+
+Please see the table below about the register function:
+400001  ROOM_TEMP     measured room temperatur from external sensor (values 5 - 50) 
+400002  SET_TEMP      set-point temperature by user (values 18 - 28) 
+400003  FAN_LEVEL     level for ventilation (values 0 - 5) 
+400004  BEEPER        any value between 500 and 4000 will set the beeper with the given frequency for 100ms 
+400005  DISP_ONOFF    timer for display automatic off function (0 switch backlight off, >0 set timer for automatic) 
+400006  TOTAL_ERRORS  Counted communication errors
 
 
 ## Website
