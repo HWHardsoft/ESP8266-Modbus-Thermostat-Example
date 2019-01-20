@@ -1,6 +1,8 @@
 # ESP8266-Modbus-Thermostat-Example
 ESP8266 based wall thermostat with ILI9341 touchscreen and Modbus support   
 
+![My image](https://i.pinimg.com/564x/f1/7e/0f/f17e0fb9de3552c1c893d19d422fd41a.jpg)
+
 ## Usage
 
 Install the following libraries through Arduino Library Manager
